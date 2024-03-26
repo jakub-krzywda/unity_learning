@@ -1,0 +1,41 @@
+# This .gitignore file should be placed at the root of your Unity project directory
+
+# Exclude all files and folders that are specific to the Unity editor
+/[Ll]ibrary/
+/[Tt]emp/
+/[Oo]bj/
+/[Bb]uild/
+/[Bb]uilds/
+/[Ll]ogs/
+/[Mm]emoryCaptures/
+
+# Exclude Visual Studio Code settings
+/.vscode/
+
+# Exclude Visual Studio/IDE files
+/*.csproj
+/*.sln
+/*.suo
+/*.user
+/*.userprefs
+/*.pidb
+/*.booproj
+/*.svd
+
+
+
+# Exclude OS generated files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# Exclude backup files
+*~
+*.swp
+*.bak
+*.tmp
+*.temp
